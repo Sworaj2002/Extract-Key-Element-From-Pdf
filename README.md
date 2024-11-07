@@ -14,7 +14,8 @@ This project extracts and analyzes insights from a PDF document related to busin
 ## Setup
 
 python -m venv env
-source env/bin/activate  # On Windows use `env\Scripts\activate`.
+env/bin/activate  # On Windows use `env\Scripts\activate`.
+
 pip install -r requirements.txt
 ## Set up OpenAI API Key:
 Replace "YOUR_OPENAI_API_KEY" in app.py with your actual OpenAI API key to authenticate the GPT-4 requests.
